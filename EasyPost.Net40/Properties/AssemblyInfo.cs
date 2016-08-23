@@ -14,13 +14,19 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
+
+
+// Make "private" methods testable.
+[assembly: InternalsVisibleTo( "PublicKeyToken=e74389841710a07c" )]
+
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
+
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3d60b7e8-b5d1-41a8-867d-b000cfd22875")]
+[ assembly: Guid("3d60b7e8-b5d1-41a8-867d-b000cfd22875")]
 
 // Version information for an assembly consists of the following four values:
 //
